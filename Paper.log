@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.10)  5 DEC 2022 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.21)  6 DEC 2022 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,32 +624,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Bargraph.png, id=29, 744.53156pt x 406.51875pt>
 File: Bargraph.png Graphic file (type png)
 <use Bargraph.png>
-Package pdftex.def Info: Bargraph.png  used on input line 80.
+Package pdftex.def Info: Bargraph.png  used on input line 85.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
 <LineGraphStableDiff.png, id=31, 744.53156pt x 406.51875pt>
 File: LineGraphStableDiff.png Graphic file (type png)
 <use LineGraphStableDiff.png>
-Package pdftex.def Info: LineGraphStableDiff.png  used on input line 87.
+Package pdftex.def Info: LineGraphStableDiff.png  used on input line 92.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
 <LineGraphDall-E.png, id=32, 744.53156pt x 406.51875pt>
 File: LineGraphDall-E.png Graphic file (type png)
 <use LineGraphDall-E.png>
-Package pdftex.def Info: LineGraphDall-E.png  used on input line 94.
+Package pdftex.def Info: LineGraphDall-E.png  used on input line 99.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
 <LineGraphDBW.png, id=33, 744.53156pt x 406.51875pt>
 File: LineGraphDBW.png Graphic file (type png)
 <use LineGraphDBW.png>
-Package pdftex.def Info: LineGraphDBW.png  used on input line 101.
+Package pdftex.def Info: LineGraphDBW.png  used on input line 106.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
 <LineGraphMidJ.png, id=34, 744.53156pt x 406.51875pt>
 File: LineGraphMidJ.png Graphic file (type png)
 <use LineGraphMidJ.png>
-Package pdftex.def Info: LineGraphMidJ.png  used on input line 108.
+Package pdftex.def Info: LineGraphMidJ.png  used on input line 113.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
 <boxplotWithAllData.png, id=35, 651.93562pt x 406.51875pt>
 File: boxplotWithAllData.png Graphic file (type png)
 <use boxplotWithAllData.png>
-Package pdftex.def Info: boxplotWithAllData.png  used on input line 115.
+Package pdftex.def Info: boxplotWithAllData.png  used on input line 120.
 (pdftex.def)             Requested size: 397.485pt x 247.86441pt.
  [4 <./Bargraph.png>]
 [5 <./LineGraphStableDiff.png> <./LineGraphDall-E.png>] [6 <./LineGraphDBW.png>
@@ -661,17 +661,18 @@ Package logreq Info: Writing requests to 'Paper.run.xml'.
 Here is how much of TeX's memory you used:
  13212 strings out of 475380
  255021 string characters out of 2776771
- 905366 words of memory out of 3000000
+ 906366 words of memory out of 3000000
  34462 multiletter control sequences out of 15000+600000
  474695 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,77p,1942b,1776s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<E:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Progra
-m Files/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Program Files/MikTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MikTeX/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><E:/Program Files/MikTeX/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb>
-Output written on Paper.pdf (7 pages, 80859 bytes).
+<C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><C:/Users/james/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on Paper.pdf (11 pages, 150363 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
