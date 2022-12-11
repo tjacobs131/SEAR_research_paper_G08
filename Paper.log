@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.21)  10 DEC 2022 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.21)  11 DEC 2022 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,6 +472,9 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen170
 \titlewidthfirst=\dimen171
 )
+(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
@@ -481,25 +484,25 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 25.
+(biblatex)                Setting 'uniquename=init' on input line 27.
 
 (Paper.aux)
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -592,14 +595,14 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Paper.bbl' found.
  (Paper.bbl)
-Package biblatex Info: Reference section=0 on input line 25.
-Package biblatex Info: Reference segment=0 on input line 25.
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 29.
  [1
 
 {C:/Users/james/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1] (Paper.t
@@ -624,53 +627,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <TrendsPlotWithLegend.png, id=22, 651.93562pt x 416.30531pt>
 File: TrendsPlotWithLegend.png Graphic file (type png)
 <use TrendsPlotWithLegend.png>
-Package pdftex.def Info: TrendsPlotWithLegend.png  used on input line 59.
+Package pdftex.def Info: TrendsPlotWithLegend.png  used on input line 61.
 (pdftex.def)             Requested size: 397.485pt x 253.83153pt.
  [2 <./TrendsPlotWithLegend.png>]
 [3] [4]
 <LineGraphStableDiff.png, id=34, 744.53156pt x 406.51875pt>
 File: LineGraphStableDiff.png Graphic file (type png)
 <use LineGraphStableDiff.png>
-Package pdftex.def Info: LineGraphStableDiff.png  used on input line 96.
+Package pdftex.def Info: LineGraphStableDiff.png  used on input line 94.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<Bargraph.png, id=36, 744.53156pt x 406.51875pt>
-File: Bargraph.png Graphic file (type png)
-<use Bargraph.png>
-Package pdftex.def Info: Bargraph.png  used on input line 103.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<LineGraphDall-E.png, id=37, 744.53156pt x 406.51875pt>
-File: LineGraphDall-E.png Graphic file (type png)
-<use LineGraphDall-E.png>
-Package pdftex.def Info: LineGraphDall-E.png  used on input line 110.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<LineGraphDBW.png, id=38, 744.53156pt x 406.51875pt>
-File: LineGraphDBW.png Graphic file (type png)
-<use LineGraphDBW.png>
-Package pdftex.def Info: LineGraphDBW.png  used on input line 117.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<LineGraphMidJ.png, id=39, 744.53156pt x 406.51875pt>
+<LineGraphMidJ.png, id=36, 744.53156pt x 406.51875pt>
 File: LineGraphMidJ.png Graphic file (type png)
 <use LineGraphMidJ.png>
-Package pdftex.def Info: LineGraphMidJ.png  used on input line 125.
+Package pdftex.def Info: LineGraphMidJ.png  used on input line 101.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<boxplotWithAllData.png, id=40, 744.53156pt x 406.51875pt>
+ [5 <./LineGraphStableDiff.png> <./LineGraphMidJ.png>]
+<LineGraphDall-E.png, id=42, 744.53156pt x 406.51875pt>
+File: LineGraphDall-E.png Graphic file (type png)
+<use LineGraphDall-E.png>
+Package pdftex.def Info: LineGraphDall-E.png  used on input line 112.
+(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
+<LineGraphDBW.png, id=43, 744.53156pt x 406.51875pt>
+File: LineGraphDBW.png Graphic file (type png)
+<use LineGraphDBW.png>
+Package pdftex.def Info: LineGraphDBW.png  used on input line 119.
+(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
+<Bargraph.png, id=44, 744.53156pt x 406.51875pt>
+File: Bargraph.png Graphic file (type png)
+<use Bargraph.png>
+Package pdftex.def Info: Bargraph.png  used on input line 131.
+(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
+<boxplotWithAllData.png, id=45, 744.53156pt x 406.51875pt>
 File: boxplotWithAllData.png Graphic file (type png)
 <use boxplotWithAllData.png>
-Package pdftex.def Info: boxplotWithAllData.png  used on input line 132.
+Package pdftex.def Info: boxplotWithAllData.png  used on input line 140.
 (pdftex.def)             Requested size: 397.485pt x 217.03566pt.
- [5 <./LineGraphStableDiff.png>] [6 <./Bargraph.png> <./LineGraphDall-E.png>] [
-7 <./LineGraphDBW.png> <./LineGraphMidJ.png>] [8 <./boxplotWithAllData.png>] (P
-aper.aux)
+ [6 <./LineGraphDall-E.png>] [7 <./LineGraphDBW.png> <./Bargraph.png>] [8 <./bo
+xplotWithAllData.png>] [9] (Paper.aux)
 Package logreq Info: Writing requests to 'Paper.run.xml'.
 \openout1 = `Paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13223 strings out of 475380
- 255338 string characters out of 2776771
- 906374 words of memory out of 3000000
- 34473 multiletter control sequences out of 15000+600000
- 474695 words of font info for 46 fonts, out of 8000000 for 9000
+ 13261 strings out of 475380
+ 256316 string characters out of 2776771
+ 906632 words of memory out of 3000000
+ 34507 multiletter control sequences out of 15000+600000
+ 475296 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,6n,77p,1942b,1776s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -679,9 +682,9 @@ fonts/cm/cmr10.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr12.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr17.pfb><C:/Users/james/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Paper.pdf (12 pages, 165685 bytes).
+Output written on Paper.pdf (13 pages, 172355 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
