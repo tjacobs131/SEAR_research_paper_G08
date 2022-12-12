@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.21)  12 DEC 2022 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.10)  12 DEC 2022 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (Paper.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-10-26>
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(E:\Program Files\MikTeX\tex/latex/base\report.cls
 Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(E:\Program Files\MikTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,36 +24,36 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(E:\Program Files\MikTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(E:\Program Files\MikTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(E:\Program Files\MikTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(E:\Program Files\MikTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(E:\Program Files\MikTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(E:\Program Files\MikTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \stockwidth=\dimen139
 \stockheight=\dimen140
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+)
+(E:\Program Files\MikTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(E:\Program Files\MikTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen143
 \ar@mcellbox=\box51
@@ -71,30 +71,29 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \TX@cols=\count194
 \TX@ftn=\toks18
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(E:\Program Files\MikTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(E:\Program Files\MikTeX\tex/generic/babel\babel.sty
 Package: babel 2022/10/23 3.82 The Babel package
 \babel@savecnt=\count195
 \U@D=\dimen150
 \l@unhyphenated=\language79
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(E:\Program Files\MikTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count196
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(E:\Program Files\MikTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+(E:\Program Files\MikTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -103,18 +102,17 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ))
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
+(E:\Program Files\MikTeX\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(E:\Program Files\MikTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(E:\Program Files\MikTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(E:\Program Files\MikTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count197
@@ -130,8 +128,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks21
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
+(E:\Program Files\MikTeX\tex/latex/geometry\geometry.cfg))
+(E:\Program Files\MikTeX\tex/latex/sectsty\sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 
@@ -143,14 +141,12 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-) (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (E:\Program Files\MikTeX\tex/latex/lipsum\lipsum.sty
+(E:\Program Files\MikTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(E:\Program Files\MikTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-10-26 L3 programming layer (loader) 
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(E:\Program Files\MikTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box53
@@ -162,11 +158,11 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count268
 \l__lipsum_b_int=\count269
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(E:\Program Files\MikTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(E:\Program Files\MikTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(E:\Program Files\MikTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@tempdima=\dimen159
 \captionmargin=\dimen160
@@ -181,44 +177,44 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count270
 \c@continuedfloat=\count271
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+(E:\Program Files\MikTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(E:\Program Files\MikTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(E:\Program Files\MikTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(E:\Program Files\MikTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(E:\Program Files\MikTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count272
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(E:\Program Files\MikTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(E:\Program Files\MikTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+))
+(E:\Program Files\MikTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count273
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(E:\Program Files\MikTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(E:\Program Files\MikTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(E:\Program Files\MikTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -282,7 +278,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+(E:\Program Files\MikTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -374,14 +370,15 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+(E:\Program Files\MikTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+(E:\Program Files\MikTeX\tex/latex/biblatex\blx-bibtex.def
 File: blx-bibtex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
+
 
 Package biblatex Warning: Using fall-back BibTeX(8) backend:
 (biblatex)                functionality may be reduced/unavailable.
@@ -389,7 +386,7 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (E:\Program Files\MikTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 \c@textcitecount=\count388
 \c@textcitetotal=\count389
@@ -408,14 +405,12 @@ File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authoryear
-.bbx
+(E:\Program Files\MikTeX\tex/latex/biblatex/bbx\authoryear.bbx
 File: authoryear.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
-bx
+(E:\Program Files\MikTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count397
 \c@bbx:relatedtotal=\count398
@@ -423,8 +418,7 @@ File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authoryear
-.cbx
+(E:\Program Files\MikTeX\tex/latex/biblatex/cbx\authoryear.cbx
 File: authoryear.cbx 2022/07/12 v3.18b biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -437,7 +431,7 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(E:\Program Files\MikTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 
@@ -450,17 +444,14 @@ Package biblatex Info: ... and expl3
 (biblatex)             2022-10-26 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
-.sty
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
+(E:\Program Files\MikTeX\tex/latex/biblatex\blx-case-expl3.sty
+(E:\Program Files\MikTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 
 ))
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(E:\Program Files\MikTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip73
@@ -472,7 +463,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen170
 \titlewidthfirst=\dimen171
 )
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+(E:\Program Files\MikTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 
@@ -503,9 +494,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
-
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+ (E:\Program Files\MikTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count401
 \scratchdimen=\dimen172
@@ -518,16 +507,13 @@ ii
 \MPnumerator=\count405
 \makeMPintoPDFobject=\count406
 \everyMPtoPDFconversion=\toks24
-)
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (E:\Program Files\MikTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+(E:\Program Files\MikTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(E:\Program Files\MikTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -537,8 +523,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(E:\Program Files\MikTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -579,9 +564,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\james\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
+(E:\Program Files\MikTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2022/07/12 v3.18b biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -603,10 +586,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 33.
- [1
 
-{C:/Users/james/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1] (Paper.t
-oc
+[1
+
+{C:/Users/tomja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1]
+(Paper.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -680,19 +664,18 @@ Package logreq Info: Writing requests to 'Paper.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  13275 strings out of 475380
- 256497 string characters out of 2776771
+ 253345 string characters out of 2786586
  905639 words of memory out of 3000000
  34521 multiletter control sequences out of 15000+600000
  475296 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,77p,1942b,1776s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/james/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><C:/Users/james/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Paper.pdf (15 pages, 2018678 bytes).
+<E:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Progra
+m Files/MikTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Program Files/MikTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MikTeX/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><E:/Program Files/MikTeX/fonts/type1/public/amsfo
+nts/cm/cmssbx10.pfb>
+Output written on Paper.pdf (15 pages, 2019184 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
