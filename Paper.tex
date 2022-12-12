@@ -19,7 +19,7 @@
 \usepackage[compact]{titlesec}%include title formatting package
 \usepackage[section]{placeins}
 \usepackage{placeins}
-
+\titleformat*{\subsubsection}{\normalsize\bfseries}
 
 
 % Title Page
@@ -52,23 +52,25 @@
 	\subsection{Context and background}
 During the year of 2022 there has been a massive increase in the popularity and use of text-to-image generators, an artificial intelligence technique that translates human text into a computer-generated image. You will likely have heard of at least one of these if you frequent the internet. This explosion in popularity has led to many different text-to-image applications being made, which on the one hand has given many more options to artists, (people who use a text-to-image generator to create and refine an image), but it has also made the landscape more difficult to navigate because of its abundance of choice. This paper makes an effort to try and alleviate this problem by picking four of the most used text-to-image generators and comparing them based on their accuracy and process so we can help people gain some perspective on which text-to-image generator is best for their needs.
 
-A research paper was published on the nineteenth of February 2020 called: "A survey and taxonomy of adversarial neural networks for text-to-image synthesis" that makes use of surveys to compare models for text-to-image generations. This paper aimed to show which text-to-image technique yielded the most realistic results in a wide variety of categories. One issue with this paper was that is was written before the explosion of consumer text-to-image generators happened, which is why we will instead focus on modern consumer-grade generators which are available today. Another issue is that they don't allow average inexperienced artists to use their tools, instead their results are created by the researchers themselves. Because of this their results do not reflect what the average inexperienced artist can expect when using these text-to-image techniques. 
+A research paper was published on the nineteenth of February 2020 called: "A survey and taxonomy of adversarial neural networks for text-to-image synthesis" that makes use of surveys to compare models for text-to-image generations. This paper aimed to show which text-to-image technique yielded the most realistic results in a wide variety of categories. One issue with this paper was that is was written before the explosion of consumer text-to-image generators happened, which is why we will instead focus on modern consumer-grade generators which are available today.
 
 	\subsection{Problem and hypothesis}
 Our goal during the course of this research paper is to find out what the best text-to-image generator is out of the four we chose, in the case of an artist who is not experienced in the world of text-to-image generation. Our hope is that artists who are new to text-to-image generation will be able to make an educated decision on which generator is best for them on the basis of this paper.
 
-Another question we take a look at is which applications have access to the most tools. More tools allow the artist more freedom to improve their results in a multitude of ways. Take for example inpainting, both Dall-E and stable diffusion give the artist access to this. With inpainting you can select, or paint over, a part of an image, you can then tell the generator what you would like to have generated in the selected area. More tools may sound great, however in practice inexperienced artists may struggle to get the hang of these kinds of tools.
+Another question we take a look at is what makes an application good for an inexperienced artist. In answering this question we will consider: the tools available to an artist, the difficulty in using these tools, the accuracy in generating images, the learning curve of an application and the speed with which the application can generate images. With these points of consideration it should be possible to score each application on their ease of use, and on their future potential if the artist were to stick with that application.
 
 The text-to-image generators we will be testing during the course of this paper are: Stable diffusion, Midjourney, DallE and Dream by Wombo. We came to these models after looking at several applications in google trends. This gave us a good idea of what the landscape looked like, and which applications artists would be likely to choose. You may notice below in Figure 1 that Dream by Wombo is not that popular anymore, however it was one of the first openly accessible text-to-image applications out there.
 
-\begin{figure}[!htb]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\linewidth]{TrendsPlotWithLegend}
 	\caption{Results from Google Trends showing the popularity of different text-to-image applications}
 	\label{fig:TrendsPlotWithLegend}
 \end{figure}
 
-We expect the best text-to-image generator out of the four we chose to be stable diffusion. This is due to the fact that stable diffusion offers its users more tools and techniques like inpainting (allows you to regenerate a specific area of an image without regenerating the whole image), this allows the user more freedom to fine-tune their result. Given enough time this will yield a more accurate result. This however only applies for artists who are already experienced, because it can take quite some practice to get used to all the tools that are available in stable diffusion. We expect inexperienced artists to struggle finding the right settings because of the amount of freedom they get. In the case of a completely inexperienced artist, they might find Dall-E easier to use because it can create photo-realistic results without having to fine tune any settings apart from the prompt.
+\par\bigskip
+
+We expect the best text-to-image generator out of the four we chose to be stable diffusion. This is due to the fact that stable diffusion offers its users more tools and techniques like inpainting (allows you to regenerate a specific area of an image without regenerating the whole image), this allows the user more freedom to fine-tune their result. Given enough time this will yield a more accurate result. This however only applies for artists who are already experienced, because it can take quite some practice to get used to all the tools that are available in stable diffusion. We expect inexperienced artists to struggle finding the right settings because of the amount of freedom they get. In the case of a completely inexperienced artist, they might find Dall-E or Midjourney easier to use because they can create photo-realistic results without having to fine tune any settings apart from the prompt.
 	
 \pagebreak
 	
@@ -77,9 +79,7 @@ We expect the best text-to-image generator out of the four we chose to be stable
 	\subsection{Data collection}
 	Our goal during the course of this research paper is to find out what the best text to image generator is, out of the four we chose, for artists who are experienced as well as artists who are not experienced in AI art generation.
 	
-	In order to find out which is the best one, we will look at two things, namely: their accuracy in recreating an image, and their ease of use for inexperienced artists.
-	
-	Our x value is the array of different applications that we use and the y value is the result of that (the distance) for each iteration on the road to trying to recreate an image using these applications. The intervening variable in this case would be the amount of experience using these applications.
+	In order to find out which is the best one, we will first look at the accuracy with which the generator can create images. We will score the accuracy with an API developed by DeepAI which can calculate image similarity.
 	
 	\subsubsection{Generating images}
 	We have chosen an image that we find sufficiently covers all the challenging parts of recreating an image using ai art generation such as reflections and complex composition. We then use each of the four artificial intelligence applications to try and recreate that image within a given time frame (15 minutes). After each iteration we take the generated image (iteration) and add it to a list of the iterations that we created while recreating that image for that specific application (each application will thus have their own history of the process of the participants tying to recreate the image). 
@@ -95,7 +95,9 @@ We expect the best text-to-image generator out of the four we chose to be stable
 	
 	Once the data is gathered, we can create a graph to compare the applications more easily. The people that carried out this experiment also consisted of one novice and one experienced individual. This is to see which is the best application for each group of people and thus, the results will be conveyed on two separate graphs.
 	
-	In terms of our secondary research question this method also gives us insight if we are aware of the techniques each of them use we can notice if there is a pattern of success or failure with each.
+	In these graphs the x value is the array of different applications that we use and the y value is the result of that (the distance) for each iteration on the road to trying to recreate an image using these applications. The intervening variable in this case would be the amount of experience using these applications.
+	
+	
 	
 	\pagebreak
 	
