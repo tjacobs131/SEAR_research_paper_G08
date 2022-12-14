@@ -23,9 +23,8 @@
 \titlespacing{\subsection}{0pt}{15pt}{0pt}
 \titlespacing{\subsubsection}{0pt}{10pt}{0pt}
 
-
 % Title Page
-\title{Top Text}
+\title{A comparison of the most popular AI text-to-image generation applications}
 \author{Tom Jacobs and James Boogaard}
 \date{December 15th 2022 \\Module: SEAR \\Venlo, Limburg, Netherlands}
 
@@ -35,7 +34,7 @@
 	\maketitle
 	
 	\begin{abstract}
-		Following the explosion of artificial intelligence during the year of 2022, there now are many text-to-image generation applications out there. This is great for the field of artificial intelligence as a whole, however it has made knowing which application is best quite hard for artists who are new to text-to-image generation. This paper looks at four of the most popular generators, with the aim to find out which one is the best for an inexperienced artist.
+		Following the explosion of artificial intelligence during the year of 2022, there are now many text-to-image generation applications out there. This is great for the field of artificial intelligence as a whole, however it has made knowing which application is best quite hard for artists who are new to text-to-image generation. This paper looks at four of the most popular generators, with the aim to find out which one is the best for an inexperienced artist.
 		
 		\pagenumbering{roman}
 		
@@ -52,63 +51,63 @@
 	\section{Introduction}
 	
 	\subsection{Context and background}
-During the year of 2022 there has been a massive increase in the popularity and use of text-to-image generators, an artificial intelligence technique that translates human text into a computer-generated image. You will likely have heard of at least one of these if you frequent the internet. This explosion in popularity has led to many different text-to-image applications being made, which on the one hand has given many more options to artists(people who use a text-to-image generator to create and refine an image), but it has also made the landscape more difficult to navigate because of its abundance of choice. This paper makes an effort to try and alleviate this problem by picking four of the most used text-to-image generators and comparing them based on their accuracy and process. This allows us to help people gain some perspective on which text-to-image generator is best for their needs.
-
-A research paper was published on the nineteenth of February 2020 called: "A survey and taxonomy of adversarial neural networks for text-to-image synthesis", \cite{agnese2020survey} that makes use of surveys to compare models for text-to-image generations. This paper aimed to show which text-to-image technique yielded the most realistic results in a wide variety of categories. One issue with this paper was that is was written before the explosion of consumer text-to-image generators happened, which is why we will instead focus on modern consumer-grade generators which are available today.
-
-	\subsection{Problem and hypothesis}
-Our goal during the course of this research paper is to find out what the best text-to-image generator is out of the four we chose, in the case of an artist who is not experienced in the world of text-to-image generation. Our hope is that artists who are new to text-to-image generation will be able to make an educated decision on which generator is best for them on the basis of this paper.
-
-Another question we take a look at is what makes an application good for an inexperienced artist. In answering this question we will consider: the tools available to an artist, the difficulty in using these tools, the accuracy in generating images, the learning curve of an application and the speed with which the application can generate images. With these points of consideration it should be possible to score each application on their ease of use, and on their future potential if the artist were to stick with that application.
-
-The text-to-image generators we will be testing during the course of this paper are: Stable diffusion, Midjourney, DallE and Dream by Wombo. We came to these models after looking at several applications in Google Trends. \cite{googleTrends} This gave us a good idea of what the landscape looked like, and which applications artists would be likely to choose. You may notice below in Figure 1 that Dream by Wombo is not that popular anymore, however it was one of the first openly accessible text-to-image applications out there.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=1\linewidth]{TrendsPlotWithLegend}
-	\caption{Results from Google Trends showing the popularity of different text-to-image applications}
-	\label{fig:TrendsPlotWithLegend}
-\end{figure}
-
-\pagebreak
-
-We expect the best text-to-image generator out of the four we chose to be stable diffusion. This is due to the fact that stable diffusion offers its users more tools and techniques like inpainting (allows you to regenerate a specific area of an image without regenerating the whole image), this allows the user more freedom to fine-tune their result. Given enough time this will yield a more accurate result.
+	During the year of 2022 there has been a massive increase in the popularity and use of text-to-image generators, an artificial intelligence technique that translates human text into a computer-generated image. You will likely have heard of at least one of these if you frequent the internet. This explosion in popularity has led to many different text-to-image applications being made, which on the one hand has given many more options to artists (people who use a text-to-image generator to create and refine an image), but it has also made the landscape more difficult to navigate because of its abundance of choice. This paper makes an effort to try and alleviate this problem by picking four of the most used text-to-image generators and comparing them based on their accuracy and process. This allows us to help people gain some perspective on which text-to-image generator is best for their needs.
 	
-\pagebreak
+	A research paper was published on the nineteenth of February 2020 called: "A survey and taxonomy of adversarial neural networks for text-to-image synthesis", \cite{agnese2020survey} that makes use of surveys to compare models for text-to-image generations. This paper aimed to show which text-to-image technique yielded the most realistic results in a wide variety of categories. One issue with this paper was that it was written before the explosion of consumer text-to-image generators happened in 2022, which is why we will instead focus on modern consumer-grade generators which are available today.
+	
+	\subsection{Problem and hypothesis}
+	Our goal during the course of this research paper is to find out what the best text-to-image generator is out of the four we chose, in the case of an artist who is not experienced in the world of text-to-image generation. Our hope is that artists who are new to text-to-image generation will be able to make an educated decision on which generator is best for them on the basis of this paper.
+	
+	Another question we take a look at is what makes an application good for an inexperienced artist. In answering this question, we will consider: the tools available to an artist, the difficulty in using these tools, the accuracy in generating images, the learning curve of an application and the speed with which the application can generate images. With these points of consideration, it should be possible to score each application on their ease of use, and on their future potential if the artist were to stick with that application.
+	
+	The text-to-image generators we will be testing during the course of this paper are: Stable diffusion, Midjourney, DallE and Dream by Wombo. We came to these models after looking at several applications in Google Trends. \cite{googleTrends} This gave us a good idea of what the landscape looked like, and which applications artists would be likely to choose. You may notice below in Figure 1 that Dream by Wombo is not that popular anymore, however it was one of the first openly accessible text-to-image applications out there.
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1\linewidth]{TrendsPlotWithLegend}
+		\caption{Results from Google Trends showing the popularity of different text-to-image applications}
+		\label{fig:TrendsPlotWithLegend}
+	\end{figure}
+	
+	\pagebreak
+	
+	We expect the best text-to-image generator out of the four we chose to be stable diffusion. This is due to the fact that stable diffusion offers its users more tools and techniques like inpainting (allows you to regenerate a specific area of an image without regenerating the whole image), this allows the user more freedom to fine-tune their result. Given enough time this will yield a more accurate result.
+	
+	\pagebreak
 	
 	\section{Methods}
 	
 	\subsection{Data collection}
 	Our goal during the course of this research paper is to find out what the best text to image generator is, out of the four we chose, for artists who are inexperienced in AI art generation.
 	
-	In order to find out which is the best one, we will first look at the accuracy with which the generator can create images. We will score the accuracy with an API developed by DeepAI which can calculate image similarity. \cite{imageSimilarity}
+	In order to find out which is the best one, we will first look at the accuracy with which the generator can create images. These images will then be scored using an API developed by DeepAI which can calculate image similarity. \cite{imageSimilarity}
 	
 	
 	\subsubsection{Generating images}
 	
-	We have chosen an image that we find sufficiently covers all the challenging parts of recreating an image using ai art generation such as reflections and complex composition(see figure 2 below).
+	We have chosen an image that we find sufficiently covers all the challenging parts of recreating an image using ai art generation such as reflections and complex composition (see figure 2 below).
 	Subject 1 has experience with Midjourney and Subject 2 has experience with Stable diffusion and neither of them have any experience in the other applications. Both Subject 1 and Subject 2 then use each of the four text-to-image generation applications to try and recreate that image within a given time frame (15 minutes per application). After each iteration we take the generated image and add it to a list of the iterations for that application. 
 	
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=1\linewidth]{OG}
-		\caption{}
+		\caption{The image the subjects tried to replicate}
 		\label{fig:og}
 	\end{figure}
 	
 	\subsubsection{Scoring generated images}
-	With those sets of data, we then plug the images (each iteration) into the image similarity checking API, \cite{imageSimilarity}, that can give you a numerical value for how close one image is to another. This way we can see how close each iteration is to the image we are trying to recreate. The amount of iterations each application is able to create then gives us insight into how fast the application is and how many iterations you have to do to achieve a certain result. We also gain an idea of how easy to use each application is through this process.
+	With those sets of data, we then plug the images (each iteration) into the image similarity checking API, \cite{imageSimilarity}, that can give you a numerical value for how close one image is to another. This way we can see how close each iteration is to the image we are trying to recreate. The number of iterations each application is able to create then gives us insight into how fast the application is and how many iterations you have to do to achieve a certain result. We also gain an idea of how easy to use each application is through this process.
 	
-	In order to compare the image generation applications effectively we observe a multitude of factors that will indicate the strengths and weaknesses of that application. These factors are: The amount of iterations each participant can generate while trying to create the image within the 15 minute time limit, how close each iteration is to the image we are trying to replicate using the ai image comparing API's unit of measurement (the unit is called distance. The closer to zero the distance is, the closer the images are together. Zero means that the two images that are being compared are exactly the same), how easily we were able to access the application and its functionality, how much functionality each application offers and their effects on the final results of our experiment.
+	In order to compare the image generation applications effectively we observe a multitude of factors that will indicate the strengths and weaknesses of that application. These factors are: the amount of iterations each subject can generate while trying to create the image within the 15 minute time limit, how easily we were able to access the application and its functionality, how much functionality each application offers and their effects on the final results of our experiment and finally how close each iteration is to the image we are trying to replicate using the ai image comparing API's unit of measurement (the unit is called distance). The closer to zero the distance is, the more similar the images are to each other. A distance of zero means that the two images that are being compared are exactly the same.
 	
 	
 	\subsection{Visualizing data}
 	
 	Once the data is gathered, we can create graphs to compare the applications more easily. 
 	
-	In these graphs the x value is the array of different applications that we use and the y value is the result of that (the distance) for each iteration on the road to trying to recreate an image using these applications. The intervening variable in this case would be the amount of experience using these applications.
+	In these graphs the x value is the iteration number for that application and the y value is the result (the distance) for each iteration on the road to trying to recreate an image using these applications. This will allow us to compare the timelines of each subject's attempt at recreating the original image and gives us insight into each applications process of text-to-image generation. The intervening variable in this case would be the amount of experience each subject has with using these applications.
 	
-	We also want to check each applications average result across both Subject 1 and Subject 2 in order to compare how close each iteration gets to the original image on average. This will show us if there are any large differences between the applications as a whole. If there is this will play a role in choosing which is the best application.
+	We also want to check each applications average result across both Subject 1 and Subject 2 in order to compare how close each application gets to the original image on average. This will show us if there are any large differences between the applications as a whole, in terms of the accuracy of the images the applications were able to create. If there is, this will play a role in choosing which is the best application.
 	
 	The last set of important data we want to visually represent is the min and max of each application and how far spread the results of each application are in order to see how reliable each application is. 
 	
@@ -117,67 +116,65 @@ We expect the best text-to-image generator out of the four we chose to be stable
 	\pagebreak
 	
 	\section{Results}
-
 	
-    
 	\begin{figure}[!!htbp]
 		\centering
 		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphStableDiff}
-		\caption{}
+		\caption{Line graph showing distance of each iteration for both subjects 1 and 2 for Stable diffusion}
 		\label{fig:linegraphstablediff}
 	\end{figure}
-
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphMidJ}
-	\caption{}
-	\label{fig:linegraphmidj}
-\end{figure}
-
-\subsection{Figure 3 and 4}
-
-What is interesting in both figure one and two is that the discrepancy between the two subjects in both applications is larger than that of any of the other applications we tested. This is seen with Subject two having nearly double the amount of iterations when compared to Subject one in figure 3 and then Subject 1 having more iterations than Subject two in figure 4. Another point of interest is that the application in figure one has as a small amount of iterations when compared to the other applications. 
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphDall-E}
-	\caption{}
-	\label{fig:linegraphdall-e}
-\end{figure}
-
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphDBW}
-	\caption{}
-	\label{fig:linegraphdbw}
-\end{figure}
-
-\pagebreak
-\subsection{Figure 5 and 6}
-
-In figure 5 we see that Dall-E has the most iterations out of any of the other applications. When comparing the amount of iterations that each subject has in both figure 3 for Stable diffusion and figure 4 for Midjourney, the two applications are very far apart. In contrast the amount of iterations between each subject is very close together in figure 5 for Dall-E and figure 6 for Dream by Wombo.
-
-
-
-\begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{Bargraph}
-	\caption{}
-	\label{fig:bargraph}
-\end{figure}
-\pagebreak
-\subsection{Figure 7}
-Figure 5 shows that the average distances of all the applications from both subjects one and two are very close. When comparing the applications Dall-E has the least average distance and stable diffusion has the most average distance but again only by a slight margin. 
+	
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphMidJ}
+		\caption{Line graph showing distance of each iteration for both subjects 1 and 2 for Midjourney}
+		\label{fig:linegraphmidj}
+	\end{figure}
+	
+	\subsection{Explaining figure 3 and 4}
+	
+	What is interesting in both figure 3 and 4 is that the discrepancy between the two subjects in both applications is larger than that of any of the other applications we tested. This is seen with subject 2 having nearly double the number of iterations when compared to subject 1 in figure 3 and then subject 1 having more iterations than subject 2 in figure 4. Another point of interest is that the application in figure 3 has as a small number of iterations when compared to the other applications. 
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphDall-E}
+		\caption{Line graph showing distance of each iteration for both subjects 1 and 2 for Dall-E}
+		\label{fig:linegraphdall-e}
+	\end{figure}
+	
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{LineGraphDBW}
+		\caption{Line graph showing distance of each iteration for both subjects 1 and 2 for Dream by Wombo}
+		\label{fig:linegraphdbw}
+	\end{figure}
+	
+	\pagebreak
+	\subsection{Explaining figure 5 and 6}
+	
+	In figure 5 we see that Dall-E has the most iterations out of any of the other applications. When comparing the number of iterations that each subject has in both figure 3 for Stable diffusion and figure 4 for Midjourney, the two applications are very far apart. In contrast the number of iterations between each subject is very close together in figure 5 for Dall-E and figure 6 for Dream by Wombo.
+	
+	
+	
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{Bargraph}
+		\caption{Bargraph showing the average distances of all iterations per application for both subjects 1 and 2}
+		\label{fig:bargraph}
+	\end{figure}
+	
+	\subsection{Explaining figure 7}
+	Figure 7 shows that the average distances of all the applications from both subjects 1 and 2 are very close. When comparing the applications Dall-E has the least average distance and stable diffusion has the most average distance but again only by a slight margin. 
 	
 	\begin{figure}[!htbp]
 		\centering
 		\includegraphics[width=1\linewidth, trim=0 0 0 50, clip]{boxplotWithAllData}
-		\caption{}
+		\caption{Boxplot showing range of combined distances for both subjects 1 and 2 per application}
 		\label{fig:boxplotwithalldata}
 	\end{figure}
-\pagebreak
-\subsection{Figure 8}
+	\pagebreak
+	\subsection{Explaining figure 8}
 	
-	In Figure 8 there are two important points of interest. Firstly is that Dall-E has a massive range between the minimum and maximum distances when compared to the other applications as well as having the largest space between quartile 2 and quartile 3. This means the spread of the distances is also the largest out of any of the other applications. Second is that Stable Diffusion has the largest median distance. 
+	In Figure 8 there are two important points of interest. Firstly, is that Dall-E has a massive range between the minimum and maximum distances when compared to the other applications, as well as having the largest interquartile range. This means the spread of the distances is also the largest out of any of the other applications. Second is that Stable Diffusion has the largest median distance. 
 	
 	
 	\pagebreak
@@ -185,36 +182,40 @@ Figure 5 shows that the average distances of all the applications from both subj
 	
 	\subsection{Interpretation}
 	
-	In order to find the best application out of the four we chose we needed to see what actually makes a text-to-image generation application good. This was done by a analysing figures 3 through to 7. The applications shown in figure 3 and 4 are applications that both subjects have experience in (Subject 1 has experience with Midjouney and Subject 2 has experience with Stable diffusion). What makes figure 3 and 4 important is that both the graphs show the difference that having experience in an application makes, and that difference is only in the amount of iterations the user is able to generate because the quality of the images is very random which can be seen with how the line graphs from figures 3 to 6 all fluctuate hugely and never set any kind of discernible pattern. 
+	In order to find the best application out of the four we chose we needed to see what actually makes a text-to-image generation application good. This was done by an analysing figures 3 through 7. The applications shown in figures 3 and 4 are applications that both subjects have experience in (subject 1 has experience with Midjouney and subject 2 has experience with Stable diffusion). What makes figure 3 and 4 important is that both the graphs show the difference that having experience in an application makes, and that difference is only in the number of iterations the user is able to generate. 
 	
-
 	
-	In figure 5 and 6 we then see two applications that neither Subject 1 nor Subject 2 have any prior experience in. using comparative analysis we can then compare both the graphs that the users have experience in (being figure 3 representing Stable diffusion and 4 representing Midjourney) and the graphs that the subjects don't have experience in ( being figure 5 representing Dall-E and 6 representing Dream by Wombo) and we can see more clearly that when both subjects have the same amount of experience with an applications the amount of iterations the subjects are able to generate is noticeably closer together compared to when there is a discrepancy in experience level. 
 	
-
+	In figure 5 and 6 we then see two applications that neither subject 1 nor subject 2 have any prior experience in. Using comparative analysis we can then compare both the graphs that the users have experience in (being figure 3 representing Stable diffusion and 4 representing Midjourney) and the graphs that the subjects don't have experience in ( being figure 5 representing Dall-E and 6 representing Dream by Wombo) and we can see more clearly that when both subjects have the same amount of experience with an applications the amount of iterations the subjects are able to generate is noticeably closer together compared to when there is a discrepancy in experience level. 
 	
-	When we take a look at figure 7 we can see that even though it is the combinations of the averages of all iterations across both Subject 1 and 2 per application, the differences between the bars is very small. This can be attributed to the nature of text-to-image generation being that of a random series of attempts until the user reaches a point where they are happy with the result. This is further proven when you look at any of the patterns for figures 3 through 6 and how the distance for each application's iterations follow no solid pattern but rather jumps around sometimes even ending up further away from the original image than some of the earlier iterations. An example of this can be seen in figure 4 with Subject 1.
 	
+	
+	When we take a look at figure 7, we can see that even though it is the combinations of the averages of all iterations across both subject 1 and 2 per application, the differences between the bars is very small. This can be attributed to the nature of text-to-image generation being that of a random series of attempts until the user reaches a point where they are happy with the result. This is further proven when you look at any of the patterns for figures 3 through 6 and how the distance for each application's iterations follows no discernible pattern but rather jumps around sometimes even ending up further away from the original image than some of the earlier iterations. An example of this can be seen in figure 4 with subject 1.
+	
+	Finally in figure 8 we see the spreads of each of the applications. This is important as when generating an image using a text-to-image generation application, the user relies a lot on randomness and luck. Thus, having a larger spread can actually be a good thing because the more spread you have the more varied your results will be which means while you may get worse results sometimes it also means that you may get better results.
 	
 	\subsection{Answering secondary research question}
 	
-	In order to answer the secondary research question we looked at how different aspects of the applications affected the resulting images that were generated and came to the conclusion that the amount of functionality does not play a role in the quality of generated images with inexperienced users which makes sense as they may struggle to use said functionality.This can be seen when you take into consideration that stable diffusion has the most functionality but it has the worst average iteration quality across both users. 
-	We also looked at how easy the application was to gain access to and came to the conclusion that every one of them was very easy to use and gain access to, so that also became an irrelevant comparison factor.
+	In order to answer the secondary research question, we looked at how different aspects of the applications affected the resulting images that were generated and came to the conclusion that the amount of functionality does not play a role in the quality of generated images with inexperienced users which makes sense as they may struggle to use said functionality in the first place. This can be seen when you take into consideration that stable diffusion has the most functionality but has the worst average iteration quality across both users. 
+	We also looked at how easy the application was to gain access to and came to the conclusion that every one of them was very easy to use and gain access to as they were all just on websites, so that also became an irrelevant comparison factor.
+	The accuracy of each of the applications also became less relevant as they were very close to each other, however this doesn't mean that factors relating to accuracy are no longer relevant. This can be seen with the spread of the distances, because in text-to-image generation the user will benefit from more varied results and thus an application that can supply that is usually better for an inexperienced user.
+	In terms of looking at learning curve when judging an application for an inexperienced learner this also became less relevant. We came to this conclusion after looking at figure 3 to 5 (line graphs) and noticing that having experience doesn't seem to impact image quality but rather just how many images you are able to create.
 	
-	With all this information we can now say that an application's value to an inexperienced user is not about how good the AI generation technique is nor is it about how much functionality it supplies it's user. This is because AI text-to-image generation is very random and relies a lot on luck with our current technology even for users that are experienced with these applications. What we do know is that currently if all the applications rely on luck to some degree it is then better if the application is able to give many iterations because the more attempts you are able to make, the faster you are more likely to get the result you are looking for. 
+	
+	With all this information we can now say that an application's value to an inexperienced user is not about how good the AI generation technique is nor is it about how much functionality it supplies its user. This is because AI text-to-image generation is very random and relies a lot on luck with our current technology even for users that are experienced with these applications. What we do know is that currently if all the applications rely on luck to some degree it is then better if the application is able to give many iterations because the more attempts you are able to make, the faster you are more likely to get the result you are looking for provided the spread of the results is large enough. 
 	
 	\subsection{Answering primary research question}
 	
-	Our primary research question can then be answered now that we know what makes an AI text-to-image application good for an inexperienced user and that is how fast the application is able to generate iterations. With this in mind we can then say that the best application out of the four we chose is Dall-E as it is able to generate the most iterations. On a side note our experience with it also lead to us believing that it offers a very streamline user experience, is easy to access and intuitive to use.
+	Our primary research question can then be answered now that we know what makes an AI text-to-image application good for an inexperienced user and that is how fast the application is able to generate iterations. With this in mind we can then say that the best application out of the four we chose is Dall-E as it is able to generate the most iterations. On a side note, our experience with it also led to us believing that it offers a very streamline user experience, is easy to access and intuitive to use. Finally, it also provides the most spread out of any of the applications.
 	
 	\subsection{Further research}
 	
 	The ways in which our research can be carried out in an improved manner are to firstly use a bigger sample size in order make the results of the research more convincing. This can be done by using more text-to-image applications and trying to recreate more than just one picture. 
 	
-	Secondly you can use many different ways to compare images rather than just one in order to make the results more accurate. This can be done with surveys where you ask people which image is closer to a humans perspective or by using not just one application for image comparison.
-
-\newpage
-\printbibliography[title=References]
-
+	Secondly you can use many different ways to compare images rather than just one in order to make the results more accurate. This can be done with surveys where you ask people which image is closer to a human’s perspective or by using not just one application for image comparison.
+	
+	\newpage
+	\printbibliography[title=References]
+	
 \end{document}          
-       
+
