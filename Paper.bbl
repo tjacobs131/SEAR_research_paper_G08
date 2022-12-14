@@ -16,5 +16,90 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{agnese2020survey}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AJ}{%
+         family={Agnese},
+         familyi={A\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Herrera},
+         familyi={H\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TH}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Haicheng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Xingquan},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{AJ+1}
+    \strng{fullhash}{AJHJTHZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{4}
+    \field{pages}{e1345}
+    \field{title}{A survey and taxonomy of adversarial neural networks for
+  text-to-image synthesis}
+    \field{volume}{10}
+    \field{journaltitle}{Wiley Interdisciplinary Reviews: Data Mining and
+  Knowledge Discovery}
+    \field{year}{2020}
+  \endentry
+
+  \entry{imageSimilarity}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={DeepAI},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Image Similarity API}
+    \verb{url}
+    \verb https://deepai.org/machine-learning-model/image-similarity
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{googleTrends}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Google Trends}
+    \verb{url}
+    \verb https://www.google.com/trends
+    \endverb
+    \field{day}{10}
+    \field{month}{11}
+    \field{year}{2022}
+  \endentry
+\enddatalist
 \endinput
