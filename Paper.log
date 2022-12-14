@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.13)  14 DEC 2022 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.13)  14 DEC 2022 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,36 +628,36 @@ Package pdftex.def Info: OG.png  used on input line 92.
 File: LineGraphStableDiff.png Graphic file (type png)
 <use LineGraphStableDiff.png>
 Package pdftex.def Info: LineGraphStableDiff.png  used on input line 123.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<LineGraphMidJ.png, id=39, 744.53156pt x 406.51875pt>
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
+<LineGraphMidJ.png, id=40, 744.53156pt x 406.51875pt>
 File: LineGraphMidJ.png Graphic file (type png)
 <use LineGraphMidJ.png>
 Package pdftex.def Info: LineGraphMidJ.png  used on input line 130.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
-<LineGraphDall-E.png, id=40, 744.53156pt x 406.51875pt>
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
+<LineGraphDall-E.png, id=42, 744.53156pt x 406.51875pt>
 File: LineGraphDall-E.png Graphic file (type png)
 <use LineGraphDall-E.png>
 Package pdftex.def Info: LineGraphDall-E.png  used on input line 140.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
  [5 <./LineGraphStableDiff.png> <./LineGraphMidJ.png>]
-<LineGraphDBW.png, id=46, 744.53156pt x 406.51875pt>
+<LineGraphDBW.png, id=51, 744.53156pt x 406.51875pt>
 File: LineGraphDBW.png Graphic file (type png)
 <use LineGraphDBW.png>
 Package pdftex.def Info: LineGraphDBW.png  used on input line 147.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
- [6 <./LineGraphDall-E.png>]
-<Bargraph.png, id=51, 744.53156pt x 406.51875pt>
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
+ [6 <./LineGraphDall-E.png> <./LineGraphDBW.png>]
+<Bargraph.png, id=60, 744.53156pt x 406.51875pt>
 File: Bargraph.png Graphic file (type png)
 <use Bargraph.png>
 Package pdftex.def Info: Bargraph.png  used on input line 161.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
- [7 <./LineGraphDBW.png>]
-<boxplotWithAllData.png, id=56, 744.53156pt x 406.51875pt>
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
+[7 <./Bargraph.png>]
+<boxplotWithAllData.png, id=67, 744.53156pt x 406.51875pt>
 File: boxplotWithAllData.png Graphic file (type png)
 <use boxplotWithAllData.png>
 Package pdftex.def Info: boxplotWithAllData.png  used on input line 171.
-(pdftex.def)             Requested size: 397.485pt x 217.03566pt.
- [8 <./Bargraph.png> <./boxplotWithAllData.png>] [9] [10] [11] [12
+(pdftex.def)             Requested size: 397.485pt x 190.24106pt.
+ [8 <./boxplotWithAllData.png>] [9] [10] [11] [12
 
 ]
 (Paper.aux)
@@ -666,10 +666,10 @@ Package logreq Info: Writing requests to 'Paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13501 strings out of 475380
- 258066 string characters out of 2786586
- 906851 words of memory out of 3000000
- 34744 multiletter control sequences out of 15000+600000
+ 13502 strings out of 475380
+ 258076 string characters out of 2786586
+ 905855 words of memory out of 3000000
+ 34745 multiletter control sequences out of 15000+600000
  476111 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,77p,1942b,1776s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -680,9 +680,9 @@ e1/public/amsfonts/cm/cmr12.pfb><E:/Program Files/MikTeX/fonts/type1/public/ams
 fonts/cm/cmr17.pfb><E:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmss
 bx10.pfb><E:/Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><E:
 /Program Files/MikTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Paper.pdf (16 pages, 2058424 bytes).
+Output written on Paper.pdf (16 pages, 2060419 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
