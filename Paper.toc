@@ -8,10 +8,10 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Scoring generated images}{4}{}%
 \contentsline {subsection}{\numberline {2.2}Visualizing data}{4}{}%
 \contentsline {section}{\numberline {3}Results}{5}{}%
-\contentsline {subsection}{\numberline {3.1}Figure 3 and 4}{5}{}%
-\contentsline {subsection}{\numberline {3.2}Figure 5 and 6}{7}{}%
-\contentsline {subsection}{\numberline {3.3}Figure 7}{8}{}%
-\contentsline {subsection}{\numberline {3.4}Figure 8}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Explaining Figure 3 and 4}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Explaining Figure 5 and 6}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Explaining Figure 7}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Explaining figure 8}{9}{}%
 \contentsline {section}{\numberline {4}Discussion}{10}{}%
 \contentsline {subsection}{\numberline {4.1}Interpretation}{10}{}%
 \contentsline {subsection}{\numberline {4.2}Answering secondary research question}{10}{}%

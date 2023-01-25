@@ -65,6 +65,43 @@
     \field{year}{2020}
   \endentry
 
+  \entry{whyUseImageComp}{online}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Brandon},
+         familyi={B\bibinitperiod},
+         given={Samantha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{The Best AI Art Generators (I’ve Personally Tried Them
+  All!)}
+    \verb{url}
+    \verb https://samanthabrandon.com/best-ai-art-generators
+    \endverb
+    \field{day}{23}
+    \field{month}{12}
+    \field{year}{2022}
+  \endentry
+
+  \entry{dallE}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Dall-E}
+    \field{year}{2022}
+  \endentry
+
   \entry{imageSimilarity}{online}{}
     \name{author}{1}{}{%
       {{hash=D}{%
@@ -87,6 +124,16 @@
     \field{year}{2022}
   \endentry
 
+  \entry{dreamByWombo}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Dream by Wombo}
+    \field{year}{2021}
+  \endentry
+
   \entry{googleTrends}{online}{}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
@@ -100,6 +147,56 @@
     \field{day}{10}
     \field{month}{11}
     \field{year}{2022}
+  \endentry
+
+  \entry{midjourney}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Midjourney}
+    \verb{url}
+    \verb https://midjourney.com/home/?callbackUrl=%2Fapp%2F
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{stableDiff}{online}{}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Stable Diffusion}
+    \field{year}{2022}
+  \endentry
+
+  \entry{whatIsTextToImageGen}{online}{}
+    \name{author}{1}{}{%
+      {{hash=WY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Yonghui},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WY1}
+    \strng{fullhash}{WY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{How AI creates photorealistic images from text}
+    \verb{url}
+    \verb https://blog.google/technology/research/how-ai-creates-photorealistic
+    \verb -images-from-text/
+    \endverb
+    \field{day}{22}
+    \field{month}{06}
+    \field{year}{2023}
   \endentry
 \enddatalist
 \endinput
