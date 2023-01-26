@@ -63,6 +63,9 @@
     \field{journaltitle}{Wiley Interdisciplinary Reviews: Data Mining and
   Knowledge Discovery}
     \field{year}{2020}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{whyUseImageComp}{online}{}
@@ -90,22 +93,43 @@
     \field{day}{23}
     \field{month}{12}
     \field{year}{2022}
+    \field{urlday}{23}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
   \endentry
 
-  \entry{dallE}{online}{}
+  \entry{imageSimilarityPaper}{online}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{DeepAI}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2022}
+    \field{labelyear}{2018}
     \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{title}{Dall-E}
-    \field{year}{2022}
+    \field{title}{A Modified Image Comparison Algorithm Using Histogram
+  Features}
+    \verb{url}
+    \verb https://arxiv.org/ftp/arxiv/papers/1804/1804.01142.pdf
+    \endverb
+    \field{day}{31}
+    \field{month}{03}
+    \field{year}{2018}
+    \field{urlday}{03}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{imageSimilarity}{online}{}
     \name{author}{1}{}{%
       {{hash=D}{%
-         family={DeepAI},
+         family={{DeepAI}},
          familyi={D\bibinitperiod},
       }}%
     }
@@ -122,19 +146,21 @@
     \verb https://deepai.org/machine-learning-model/image-similarity
     \endverb
     \field{year}{2022}
-  \endentry
-
-  \entry{dreamByWombo}{online}{}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
-    \field{labeldatesource}{}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Dream by Wombo}
-    \field{year}{2021}
+    \field{urlday}{18}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{googleTrends}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Google},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
     \field{labeldatesource}{}
@@ -147,9 +173,48 @@
     \field{day}{10}
     \field{month}{11}
     \field{year}{2022}
+    \field{urlday}{10}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{inpaintingExplaination}{online}{}
+    \name{author}{1}{}{%
+      {{hash=J}{%
+         family={Jay},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{J1}
+    \strng{fullhash}{J1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Stable Diffusion Inpainting Tutorial}
+    \verb{url}
+    \verb https://hashdork.com/stable-diffusion-inpainting-tutorial/
+    \endverb
+    \field{day}{06}
+    \field{month}{11}
+    \field{year}{2022}
+    \field{urlday}{26}
+    \field{urlmonth}{01}
+    \field{urlyear}{2023}
   \endentry
 
   \entry{midjourney}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Midjourney},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
     \field{labeldatesource}{}
@@ -157,19 +222,110 @@
     \field{sortinithash}{M}
     \field{title}{Midjourney}
     \verb{url}
-    \verb https://midjourney.com/home/?callbackUrl=%2Fapp%2F
+    \verb https://midjourney.com/home/
     \endverb
     \field{year}{2022}
+    \field{urlday}{08}
+    \field{urlmonth}{10}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{dallE}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenAI},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Dall-E}
+    \verb{url}
+    \verb https://openai.com/dall-e-2/
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{10}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{targetImage}{online}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Pexels},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{url}
+    \verb https://www.pexels.com/
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{10}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{stableDiff}{online}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{Stability AI,}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
     \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{title}{Stable Diffusion}
+    \verb{url}
+    \verb https://stablediffusionweb.com/
+    \endverb
     \field{year}{2022}
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{dreamByWombo}{online}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{WOMBO Studios,}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Dream by Wombo}
+    \verb{url}
+    \verb https://dream.ai/
+    \endverb
+    \field{year}{2021}
+    \field{urlday}{14}
+    \field{urlmonth}{11}
+    \field{urlyear}{2022}
   \endentry
 
   \entry{whatIsTextToImageGen}{online}{}
@@ -197,6 +353,9 @@
     \field{day}{22}
     \field{month}{06}
     \field{year}{2023}
+    \field{urlday}{23}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
   \endentry
 \enddatalist
 \endinput
